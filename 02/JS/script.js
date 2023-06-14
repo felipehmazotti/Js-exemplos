@@ -2,7 +2,7 @@ let fruta = 'fruta'
 
 fruta = prompt('nome da fruta')
 
-switch (fruta) {
+switch (fruta.toLowerCase()) {
     case 'maça':
         alert("Não vendemos essa fruta aqui")
         break
